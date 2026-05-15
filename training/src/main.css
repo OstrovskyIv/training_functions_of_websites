@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Angellin';
+  src: url('shered/fonts/Angellin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-angellin {
+  font-family: 'Angellin', sans-serif;
+}
