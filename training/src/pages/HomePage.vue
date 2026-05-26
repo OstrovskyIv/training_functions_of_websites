@@ -57,7 +57,7 @@
       cursor-pointer
       w-auto
     ">
-        Buttons
+        Logics
       </button>
 
       <button class="">
