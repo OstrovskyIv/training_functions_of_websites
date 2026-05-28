@@ -33,7 +33,7 @@
         Buttons
       </button>
 
-      <button class="">
+      <button class="font-angellin border-1 w-30 h-10">
         Settings
       </button>
     </div>
@@ -43,3 +43,4 @@
 
 <script setup lang="ts">
 </script>
+
