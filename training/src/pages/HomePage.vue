@@ -34,7 +34,7 @@
       </button>
 
       <button class="">
-        Logics
+        Settings
       </button>
     </div>
 
