@@ -33,14 +33,48 @@
         Buttons
       </button>
 
-      <button class="font-angellin border-1 w-30 h-10">
+      <button class="
+      px-4 py-2 text-sm shadow-[0_4px_0_0_rgb(140_70_0)]
+      sm:px-5 sm:py-2.5 sm:text-base sm:shadow-[0_5px_0_0_rgb(140_70_0)]
+      md:px-6 md:py-3 md:text-lg md:shadow-[0_6px_0_0_rgb(140_70_0)]
+      lg:px-7 lg:py-3.5 lg:text-xl lg:shadow-[0_7px_0_0_rgb(140_70_0)]
+      xl:px-8 xl:py-4 xl:text-2xl xl:shadow-[0_8px_0_0_rgb(140_70_0)]
+      2xl:px-10 2xl:py-5 2xl:text-3xl 2xl:shadow-[0_10px_0_0_rgb(140_70_0)]
+      tracking-wider font-bold font-angellin
+      bg-gradient-to-b from-orange-500 to-orange-700
+      rounded-lg
+      cursor-pointer
+      w-auto
+      hover:from-orange-600 hover:to-orange-800
+      hover:shadow-[0_2px_0_0_rgb(140_70_0)]
+      transition-all duration-150
+      hover:translate-y-1
+      active:scale-95
+      animate-shake
+    ">
         Settings
       </button>
     </div>
-
   </div>
 </template>
 
 <script setup lang="ts">
 </script>
 
+<style scoped>
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0) translateY(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-2px) translateY(0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(2px) translateY(0);
+  }
+}
+
+.animate-shake:hover {
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+</style>
