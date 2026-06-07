@@ -12,6 +12,7 @@
     </h1>
 
     <div class="flex flex-col gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 2xl:gap-8">
+
       <button class="
       px-4 py-2 text-sm shadow-[0_4px_0_0_rgb(160_98_0)]
       sm:px-5 sm:py-2.5 sm:text-base sm:shadow-[0_5px_0_0_rgb(160_98_0)]
@@ -33,6 +34,10 @@
         Buttons
       </button>
 
+      <button class="">
+        Logics
+      </button>
+
 
     </div>
   </div>
@@ -40,21 +45,3 @@
 
 <script setup lang="ts">
 </script>
-
-<style scoped>
-@keyframes shake {
-  0%, 100% {
-    transform: translateX(0) translateY(0);
-  }
-  10%, 30%, 50%, 70%, 90% {
-    transform: translateX(-2px) translateY(0);
-  }
-  20%, 40%, 60%, 80% {
-    transform: translateX(2px) translateY(0);
-  }
-}
-
-.animate-shake:hover {
-  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-}
-</style>
