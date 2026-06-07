@@ -13,6 +13,9 @@
       tracking-wider font-bold font-angellin
       bg-gradient-to-b from-yellow-400 to-yellow-600
       rounded-lg
+      text-black
+      border-2 border-white/30
+      hover:border-white/50
       hover:from-yellow-500 hover:to-yellow-700
       hover:shadow-[0_2px_0_0_rgb(160_98_0)]
       hover:translate-y-1

@@ -14,6 +14,8 @@
       bg-gradient-to-b from-red-400 to-red-600
       rounded-lg
       text-white
+      border-2 border-white/30
+      hover:border-white/50
       hover:from-red-500 hover:to-red-700
       hover:shadow-[0_1px_0_0_rgb(220_38_38)]
       hover:translate-y-1
