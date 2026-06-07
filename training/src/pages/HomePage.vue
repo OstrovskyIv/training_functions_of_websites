@@ -45,6 +45,12 @@
       bg-gradient-to-b from-lime-400 to-lime-600
       rounded-lg
       text-white
+      hover:from-lime-500 hover:to-lime-700
+      hover:shadow-[0_2px_0_0_rgb(77_124_15)]
+      hover:translate-y-1
+      active:scale-95
+      transition-all duration-150
+      cursor-pointer
 ">
         Logics
       </button>
