@@ -13,7 +13,7 @@
       tracking-wider font-bold font-angellin
       bg-gradient-to-b from-red-400 to-red-600
       rounded-lg
-      text-white
+      text-whitee
       border-2 border-white/30
       hover:border-white/50
       hover:from-red-500 hover:to-red-700
