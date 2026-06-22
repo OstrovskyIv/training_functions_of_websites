@@ -24,6 +24,6 @@
       cursor-pointer
       w-auto
     ">
-    Exit
+    Exit делаю сегодня задания для изуяения кнопок
   </button>
 </template>
