@@ -25,5 +25,5 @@
       w-auto
     ">
     Exit
-  </button>ю
+  </button>
 </template>
